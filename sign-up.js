@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", () => {
         const confirmed = confirm("Do you want to log out?");
         if (confirmed) {
           setLoggedOut();
-          window.location.href = "index.html";
+          window.location.href = "main-front-page.html";
         }
       } else {
         // Go to sign-up page if not on it already
