@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Heaven - Veterinary Clinics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="sign-up.js" defer></script>
+    <link rel="stylesheet" href="vetclinic-style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+    <header>
+    <div class="logo">
+      🐾 <span>PetHaven</span>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="#" class="active"></a></li>
+        <li><a href="homepage-pethaven.html">Home</a></li>
+        <li><a href="about(2).html">About Us</a></li>
+        <li><a href="contact-page.html">Contacts</a></li>
+        <li><a href="vetclinic.html" class="active">Veterinary Clinics</a></li>
+      </ul>
+    </nav>
+
+    <button class="call-btn" id="SignUp">
+      SIGN UP
+    </button>
+
+  </header>
+    <section class="hero-map-section">
+        
+        <div class="hero-text">
+            <h1>
+                <span class="accent-text">VETERINARY</span> <br>
+                CLINICS <br>
+                IN <br>
+                AMADEO
+            </h1>
+        </div>
+
+        <div class="map-arena-wrapper">
+            <div class="map-container-giant">
+                <img src="map.jpg" alt="Amadeo Map" class="map-giant-image">
+            </div>
+            <a href="#vet1" class="map-scattered-label gap-top-left-vet">
+                <span class="bracket">[</span> Paws Connection Veterinary Clinic <span class="bracket">]</span>
+            </a>
+            <a href="#vet2" class="map-scattered-label gap-mid-left-vet">
+                <span class="bracket">[</span> Villager's Vet Animal Clinic & Grooming Center <span class="bracket">]</span>
+            </a>
+            <a href="#vet3" class="map-scattered-label gap-lower-left-vet">
+                <span class="bracket">[</span> 24/Seven Veterinary Clinic - Amadeo Branch <span class="bracket">]</span>
+            </a>
+            <a href="#vet4" class="map-scattered-label gap-bottom-right-vet">
+                <span class="bracket">[</span> Galpa Veterinary Clinic <span class="bracket">]</span>
+            </a>
+            <a href="#vet5" class="map-scattered-label gap-mid-right-vet">
+                <span class="bracket">[</span> B-Vet Veterinary Clinic <span class="bracket">]</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="cards-container">
+        <div class="clinic-card" id="vet3">
+            <div class="card-header">
+                <h2>Paws Connection Veterinary Clinic</h2>
+            </div>
+            <div class="card-body">
+                <img src="vet3.jpg" alt="Paws Connection" class="clinic-image">
+                <div class="clinic-details">
+                    <p class="detail-item">📍 Claro M. Delos Reyes Avenue, Barangay Dagatan, Amadeo, Cavite</p>
+                    <p class="detail-item">📞 09567417319</p>
+                    <div class="hours">Daily Clinic Hours: 8AM - 3PM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clinic-card" id="vet2">
+            <div class="card-header">
+                <h2>Villager's Vet Animal Clinic & Grooming Center</h2>
+            </div>
+            <div class="card-body">
+                <img src="vet2.jpg" alt="Villager's Vet" class="clinic-image">
+                <div class="clinic-details">
+                    <p class="detail-item">📍 Amadeo, Cavite</p>
+                    <p class="detail-item">📞 09232871521</p>
+                    <div class="hours">Daily Clinic Hours: 8AM - 3PM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clinic-card" id="vet1">
+            <div class="card-header">
+                <h2>24/Seven Veterinary Clinic - Amadeo Branch</h2>
+            </div>
+            <div class="card-body">
+                <img src="vet1.jpg" alt="24/Seven Vet" class="clinic-image">
+                <div class="clinic-details">
+                    <p class="detail-item">📍 130 A. Mabini St, Amadeo, Cavite</p>
+                    <p class="detail-item">📞 0917 130 8490</p>
+                    <div class="hours">Daily Clinic Hours: 9AM - 6PM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clinic-card" id="vet4">
+            <div class="card-header">
+                <h2>Galpa Veterinary Clinic</h2>
+            </div>
+            <div class="card-body">
+                <img src="vet4.jpg" alt="Galpa Vet" class="clinic-image">
+                <div class="clinic-details">
+                    <p class="detail-item">📍 Salaban, Amadeo, Cavite</p>
+                    <p class="detail-item">📞 09171629588</p>
+                    <div class="hours">Daily Clinic Hours: 9AM - 6PM</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clinic-card" id="vet5">
+            <div class="card-header">
+                <h2>B-Vet Veterinary Clinic</h2>
+            </div>
+            <div class="card-body">
+                <img src="vet5.jpg" alt="B-Vet Vet" class="clinic-image">
+                <div class="clinic-details">
+                    <p class="detail-item">📍 Crisanto M. De Los Reyes Ave, Amadeo, Cavite</p>
+                    <p class="detail-item">📞 09567417319</p>
+                    <div class="hours">Daily Clinic Hours: 8AM - 3PM</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>

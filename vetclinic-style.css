@@ -1,0 +1,384 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f8f5ef;
+    color:#6e533f;
+    overflow-x:hidden;
+    font-family:'Poppins',sans-serif;
+}
+
+header{
+  width:100%;
+  background:#fff;
+  padding:20px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  box-shadow:0 2px 15px rgba(0,0,0,0.05);
+}
+
+.logo{
+  font-size:34px;
+  font-family:'Baloo 2',cursive;
+  color:#ff9c42;
+  font-weight:700;
+}
+
+.logo span{
+  color:#5b4034;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:40px;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:#333;
+  font-weight:600;
+  transition:0.3s;
+}
+
+nav ul li a:hover,
+.active{
+  color:#ff9c42;
+}
+
+.call-btn{
+  padding:14px 25px;
+  border:none;
+  background:#5b4034;
+  color:#fff;
+  border-radius:10px;
+  cursor:pointer;
+  transition:0.4s;
+  font-weight:600;
+}
+
+.call-btn:hover{
+  background:#ff9c42;
+  transform:translateY(-3px);
+}
+
+.hero-map-section{
+    min-height:100vh;
+    width:100%;
+    padding:140px 70px 90px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.25),
+        rgba(0,0,0,0.15)
+    ),
+    url('vetbg.webp');
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.hero-map-section::after{
+    content:'';
+    position:absolute;
+    bottom:-1px;
+    left:0;
+    width:100%;
+    height:140px;
+    background:#f7f4ef;
+    border-radius:100% 100% 0 0;
+}
+
+.hero-text{
+    width:48%;
+    z-index:2;
+}
+
+.hero-text h1{
+    font-size:4.7rem;
+    line-height:1.05;
+    color:#fff;
+    font-weight:800;
+    margin-bottom:25px;
+}
+
+.accent-text{
+    color:#f6d79a;
+}
+
+.hero-text p{
+    color:#f8f5ef;
+    font-size:1rem;
+    line-height:1.8;
+    width:80%;
+    margin-bottom:35px;
+}
+
+.hero-btn{
+    display:inline-block;
+    background:#f6d79a;
+    color:#6d4f3b;
+    padding:15px 40px;
+    border-radius:14px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s ease;
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.hero-btn:hover{
+    transform:translateY(-4px);
+    background:#ffe7b8;
+}
+
+.map-arena-wrapper{
+    width:55%;
+    position:relative;
+    z-index:2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.map-container-giant{
+    width:100%;
+    max-width:850px;
+    background:rgba(255,255,255,0.18);
+    backdrop-filter:blur(14px);
+    border-radius:35px;
+    padding:35px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.25);
+}
+
+.map-giant-image{
+    width:100%;
+    height:auto;
+    display:block;
+    border-radius:25px;
+}
+
+.map-scattered-label{
+    position:absolute;
+    background:#fff;
+    padding:10px 14px;
+    border-radius:14px;
+    text-decoration:none;
+    color:#6b513f;
+    font-size:0.8rem;
+    font-weight:600;
+    box-shadow:0 6px 15px rgba(0,0,0,0.12);
+    transition:0.3s ease;
+}
+
+.map-scattered-label:hover{
+    transform:translateY(-4px);
+    background:#f6d79a;
+}
+
+.map-scattered-label .bracket{
+    color:#c69758;
+}
+
+.gap-top-left-vet{
+    top:-10px;
+    left:-10px;
+}
+
+.gap-mid-left-vet{
+    top:38%;
+    left:-80px;
+}
+
+.gap-lower-left-vet{
+    bottom:10%;
+    left:-60px;
+}
+
+.gap-bottom-right-vet{
+    bottom:5%;
+    right:-40px;
+}
+
+.gap-mid-right-vet{
+    top:45%;
+    right:-70px;
+}
+
+.cards-container{
+    width:100%;
+    max-width:1200px;
+    margin:120px auto 140px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
+    gap:40px;
+    padding:0 40px;
+}
+
+.clinic-card{
+    background:#fff;
+    border-radius:28px;
+    overflow:hidden;
+    box-shadow:0 12px 30px rgba(0,0,0,0.08);
+    transition:0.4s ease;
+}
+
+.clinic-card:hover{
+    transform:translateY(-8px);
+}
+
+.card-header{
+    background:#6e533f;
+    padding:22px 28px;
+}
+
+.card-header h2{
+    color:white;
+    font-size:1.4rem;
+}
+
+.card-body{
+    display:flex;
+    gap:25px;
+    align-items:center;
+    padding:28px;
+}
+
+.clinic-image{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:22px;
+}
+
+.clinic-details{
+    flex:1;
+}
+
+.detail-item{
+    font-size:1rem;
+    margin-bottom:15px;
+    line-height:1.6;
+    color:#6b513f;
+}
+
+.hours{
+    margin-top:15px;
+    background:#f6d79a;
+    padding:12px 18px;
+    border-radius:12px;
+    display:inline-block;
+    font-weight:600;
+    color:#6d4f3b;
+}
+
+footer{
+    background:#a97955;
+    padding:70px;
+    color:white;
+    border-radius:90px 90px 0 0;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+}
+
+.footer-title{
+    font-size:1.5rem;
+    margin-bottom:20px;
+}
+
+.footer-links a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    margin-bottom:10px;
+}
+
+.footer-links a:hover{
+    color:#f6d79a;
+}
+
+@media(max-width:1100px){
+
+    .hero-map-section{
+        flex-direction:column;
+        text-align:center;
+        gap:50px;
+        padding-top:160px;
+    }
+
+    .hero-text,
+    .map-arena-wrapper{
+        width:100%;
+    }
+
+    .hero-text p{
+        width:100%;
+    }
+
+    .hero-text h1{
+        font-size:3.5rem;
+    }
+
+    .cards-container{
+        grid-template-columns:1fr;
+    }
+
+    .map-scattered-label{
+        position:static;
+        display:inline-block;
+        margin:8px;
+    }
+}
+
+@media(max-width:700px){
+
+    header{
+        padding:20px 25px;
+    }
+
+    .nav-links{
+        gap:18px;
+    }
+
+    .hero-map-section{
+        padding:150px 25px 90px;
+    }
+
+    .hero-text h1{
+        font-size:2.7rem;
+    }
+
+    .card-body{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .clinic-image{
+        width:100%;
+        height:250px;
+    }
+
+    .cards-container{
+        padding:0 20px;
+    }
+}

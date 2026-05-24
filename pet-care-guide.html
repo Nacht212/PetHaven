@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetHaven - Fun Facts & Pet Care Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pet-care-guide.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">🐾 <span>PetHaven</span></div>
+  <nav>
+    <ul>
+      <li><a href="main-front-page.html">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="contact-page.html">Contacts</a></li>
+      <li><a href="pet-care-guide.html" class="active">Pet Care Guide</a></li>
+    </ul>
+  </nav>
+  <button class="call-btn" onclick="window.location.href='SignUp.html'">SIGN UP</button>
+</header>
+
+<!-- HERO -->
+<section class="page-hero">
+  <div class="hero-floats">
+    <span>🐱</span><span>🐶</span><span>🐦</span><span>🐰</span>
+  </div>
+  <h1>Fun Facts & Pet Care 🐾</h1>
+  <p>Discover amazing facts about your favorite pets and learn how to care for them with love and expertise!</p>
+</section>
+
+<!-- TABS -->
+<div class="tab-bar">
+  <button class="tab-btn active" onclick="switchTab('cats', this)">🐱 Cats</button>
+  <button class="tab-btn" onclick="switchTab('dogs', this)">🐶 Dogs</button>
+  <button class="tab-btn" onclick="switchTab('birds', this)">🐦 Birds</button>
+  <button class="tab-btn" onclick="switchTab('rabbits', this)">🐰 Rabbits</button>
+</div>
+
+<!-- ===================== CATS ===================== -->
+<div id="cats" class="tab-content active">
+  <div class="section-title">
+    <h2>🐱 Cat Breeds</h2>
+    <p>Fun facts and proper care for your feline companions</p>
+  </div>
+  <div class="animals-grid">
+
+    <!-- SIAMESE -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/fca42f04-2474-4302-a238-990c8aebfe8c/Siamese_cat_1110x740.jpg?w=1200&q=75&auto=format" alt="Siamese Cat">
+        <div class="animal-label">
+          <div class="badge">Cat Breed</div>
+          <h3>Siamese Cat</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">🗣️</span>
+            <div class="fact-text"><strong>Extremely Vocal</strong>Siamese cats are one of the most talkative breeds  they "talk" to their owners with loud, low-pitched meows called "meezer." They'll tell you when they're hungry, bored, or just want attention!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🎨</span>
+            <div class="fact-text"><strong>Color-Changing Coat</strong>Siamese kittens are born completely white! Their distinctive dark "points" (ears, face, paws, tail) develop due to a temperature-sensitive enzyme — cooler body parts turn darker.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">💞</span>
+            <div class="fact-text"><strong>Deeply Loyal</strong>Siamese cats bond strongly with one person and can suffer from separation anxiety. Advice: consider adopting two so they keep each other company when you're away.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush weekly  their short coat rarely mats but brushing removes loose hairs.</div>
+            <div class="grooming-item"><span>👂</span> Check ears weekly for wax buildup; clean gently with a damp cotton ball.</div>
+            <div class="grooming-item"><span>🦷</span> Brush teeth 2–3 times a week to prevent dental disease.</div>
+            <div class="grooming-item"><span>💅</span> Trim nails every 2–3 weeks; provide scratching posts.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide plenty of interactive toys and puzzle feeders.</div>
+              <div class="care-item"><span class="ci">✔</span> Give lots of social interaction daily.</div>
+              <div class="care-item"><span class="ci">✔</span> Keep indoors to protect their light eyes from UV.</div>
+              <div class="care-item"><span class="ci">✔</span> Schedule annual vet check-ups.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave them alone for long periods  they get depressed.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't overfeed  Siamese are prone to obesity.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't ignore their vocalizations it's how they communicate.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't use harsh chemical cleaners near their space.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PERSIAN -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.17sfKpxfukrXQhEMluR4GgHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Persian Cat">
+        <div class="animal-label">
+          <div class="badge">Cat Breed</div>
+          <h3>Persian Cat</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">👑</span>
+            <div class="fact-text"><strong>Ancient Royalty</strong>Persian cats are one of the oldest cat breeds, originating from Persia (modern Iran). They were favorites of royalty and nobility in the 1600s and were even given as diplomatic gifts!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">😌</span>
+            <div class="fact-text"><strong>Ultra-Calm Personality</strong>Persians are famously laid-back and quiet. They rarely meow and prefer lounging over climbing. Perfect for apartment living they adapt beautifully to calm, indoor environments.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🌬️</span>
+            <div class="fact-text"><strong>Flat-Faced (Brachycephalic)</strong>Their adorable flat face causes breathing sensitivity. Advice: never expose them to extreme heat, and watch for signs of labored breathing especially in summer.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush daily their long, thick coat mats easily without regular brushing.</div>
+            <div class="grooming-item"><span>🛁</span> Bathe monthly to keep their coat clean and oil-free.</div>
+            <div class="grooming-item"><span>👁️</span> Wipe eye discharge daily Persians are prone to eye tearing due to their flat face.</div>
+            <div class="grooming-item"><span>✂️</span> Consider professional grooming every 6–8 weeks to manage coat length.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Keep them in cool, air-conditioned spaces.</div>
+              <div class="care-item"><span class="ci">✔</span> Provide flat food bowls easier for their flat face.</div>
+              <div class="care-item"><span class="ci">✔</span> Schedule regular vet visits for respiratory checks.</div>
+              <div class="care-item"><span class="ci">✔</span> Give gentle, calm affection they love quiet cuddles.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't skip daily grooming mats cause skin infections.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't expose to high heat or direct sun for long.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't use deep bowls they'll struggle to eat.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't stress them they're very sensitive to change.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPHYNX -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://cdn.britannica.com/54/7154-050-AF4CBF3C/Sphynx.jpg" alt="Sphynx Cat">
+        <div class="animal-label">
+          <div class="badge">Cat Breed</div>
+          <h3>Sphynx Cat</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">🔥</span>
+            <div class="fact-text"><strong>Naturally Warm to Touch</strong>Sphynx cats feel warmer than other cats because there's no fur to trap body heat. They actually run about 4°F warmer and LOVE snuggling under blankets or against warm humans!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🐵</span>
+            <div class="fact-text"><strong>Dog-Like Personality</strong>Sphynx cats greet their owners at the door, follow them around the house, and love meeting strangers. They're often compared to dogs in their loyalty and social behavior.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🧴</span>
+            <div class="fact-text"><strong>Not Truly Hairless</strong>Sphynx cats have a fine layer of peach-fuzz down. Because they lack fur to absorb body oils, their skin gets oily advice: regular baths are non-negotiable for this breed!</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🛁</span> Bathe weekly with gentle cat shampoo oils build up quickly on their skin.</div>
+            <div class="grooming-item"><span>👂</span> Clean ears weekly they accumulate more wax without fur blocking the ear canal.</div>
+            <div class="grooming-item"><span>💅</span> Wipe between skin folds gently with a damp cloth to prevent bacterial buildup.</div>
+            <div class="grooming-item"><span>🦷</span> Brush teeth regularly they're prone to periodontal disease.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide warm beds, sweaters, or blankets they get cold easily.</div>
+              <div class="care-item"><span class="ci">✔</span> Keep indoors no fur means no sun protection.</div>
+              <div class="care-item"><span class="ci">✔</span> Feed high-quality food they have fast metabolisms.</div>
+              <div class="care-item"><span class="ci">✔</span> Socialize from kittenhood they thrive on interaction.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't skip weekly baths skin oils cause odor and breakouts.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave them in cold rooms hypothermia risk is real.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't expose to direct sunlight they can get sunburned.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave them isolated they become anxious alone.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== DOGS ===================== -->
+<div id="dogs" class="tab-content">
+  <div class="section-title">
+    <h2>🐶 Dog Breeds</h2>
+    <p>Fun facts and proper care for your loyal canine companions</p>
+  </div>
+  <div class="animals-grid">
+
+    <!-- GOLDEN RETRIEVER -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://www.petexpress.com.ph/cdn/shop/articles/golden_retriever_5f91f61d-2e1b-4494-a8f2-0249e1888bbc_1200x.jpg?v=1772696052" alt="Golden Retriever">
+        <div class="animal-label">
+          <div class="badge">Dog Breed</div>
+          <h3>Golden Retriever</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">😊</span>
+            <div class="fact-text"><strong>Eternally Happy</strong>Golden Retrievers were literally bred to have a "soft mouth" and gentle temperament. They consistently rank as one of the most gentle breeds — they rarely bite, even when surprised!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🧠</span>
+            <div class="fact-text"><strong>Incredibly Intelligent</strong>Goldens are the 4th smartest dog breed. They can learn a new command in fewer than 5 repetitions and obey it 95% of the time. They excel as guide dogs, therapy dogs, and search-and-rescue dogs.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">💦</span>
+            <div class="fact-text"><strong>Natural Swimmers</strong>Golden Retrievers have a water-repellent double coat and webbed toes they were originally bred to retrieve waterfowl! Advice: swimming is a fantastic low-impact exercise for them.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush 3–4 times a week daily during heavy shedding seasons (spring & fall).</div>
+            <div class="grooming-item"><span>🛁</span> Bathe every 6–8 weeks or when dirty; over-bathing strips natural oils.</div>
+            <div class="grooming-item"><span>👂</span> Check ears weekly floppy ears trap moisture and can lead to infections.</div>
+            <div class="grooming-item"><span>💅</span> Trim nails every 3–4 weeks; trim feathering around paws.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Exercise at least 1–2 hours daily fetch, swimming, or hiking.</div>
+              <div class="care-item"><span class="ci">✔</span> Socialize early with people and other pets.</div>
+              <div class="care-item"><span class="ci">✔</span> Use positive reinforcement training they respond beautifully.</div>
+              <div class="care-item"><span class="ci">✔</span> Provide mental stimulation with puzzle toys.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't overfeed Goldens are notorious for obesity.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't skip dental care use dog-safe toothpaste.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave alone excessively they suffer separation anxiety.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't shave their coat it damages the double coat permanently.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SAMOYED -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://www.purina.com/sites/default/files/styles/social_share/public/2025-09/samoyed_4.jpg?h=f7d9296c&itok=4kwfbMZZ" alt="Samoyed Dog">
+        <div class="animal-label">
+          <div class="badge">Dog Breed</div>
+          <h3>Samoyed</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">😁</span>
+            <div class="fact-text"><strong>The "Smiling" Dog</strong>Samoyeds have upturned mouth corners that prevent drooling and give them a permanent smile aptly called the "Samoyed Smile." This trait also prevents icicles from forming on their lips in Arctic conditions!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">❄️</span>
+            <div class="fact-text"><strong>Built for the Arctic</strong>Originally bred by the Samoyedic people of Siberia, these dogs herded reindeer and slept with their human families for mutual warmth. Their double coat can insulate against temperatures as low as -60°C!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🧶</span>
+            <div class="fact-text"><strong>Hypoallergenic Fur</strong>Samoyed fur is actually used to knit warm garments it's soft like angora wool! Their fur is also considered relatively hypoallergenic compared to other double-coated breeds.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush 3–4 times a week; daily during shedding season heavy shedding twice a year.</div>
+            <div class="grooming-item"><span>🛁</span> Bathe every 6–8 weeks; their white coat needs occasional whitening shampoo.</div>
+            <div class="grooming-item"><span>💅</span> Trim nails monthly and check paw pads for ice or debris buildup.</div>
+            <div class="grooming-item"><span>👁️</span> Wipe around eyes gently they can develop tear staining.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide at least 1–2 hours of vigorous exercise daily.</div>
+              <div class="care-item"><span class="ci">✔</span> Keep them cool in hot weather their thick coat retains heat.</div>
+              <div class="care-item"><span class="ci">✔</span> Start training early they are independent thinkers.</div>
+              <div class="care-item"><span class="ci">✔</span> Give lots of family time they're pack animals at heart.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't shave their coat it protects from both heat and cold.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave them bored they'll bark excessively or dig.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't skip brushing mats form quickly under dense fur.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave them alone for long periods prone to anxiety.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PUG -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://content.lyka.com.au/f/1016262/1104x676/3233341a1e/pug.webp/m/640x427/smart/filters:format(webp)" alt="Pug Dog">
+        <div class="animal-label">
+          <div class="badge">Dog Breed</div>
+          <h3>Pug</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">👑</span>
+            <div class="fact-text"><strong>Royal History</strong>Pugs were prized pets of Chinese emperors and lived in luxury with their own soldiers as guards! They later became the official dog of the Dutch royal House of Orange after a pug reportedly saved Prince William's life by alerting him to approaching soldiers.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">😴</span>
+            <div class="fact-text"><strong>Champion Sleepers</strong>Pugs can sleep up to 14 hours a day! Their snoring is legendary due to their flat face and compressed airways. Advice: if snoring seems excessive or labored, consult a vet — it could indicate a breathing issue.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🎭</span>
+            <div class="fact-text"><strong>Natural Comedians</strong>Pugs are considered clownish and mischievous. They're remarkably intuitive to human emotions and will often perform silly antics to cheer up a sad owner. They live to entertain!</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush 2–3 times a week they shed more than you'd expect for a short-haired breed!</div>
+            <div class="grooming-item"><span>🧹</span> Clean facial wrinkles/folds daily with a damp cloth bacteria thrive in skin folds.</div>
+            <div class="grooming-item"><span>🛁</span> Bathe every 3–4 weeks; dry skin folds completely after bathing.</div>
+            <div class="grooming-item"><span>👁️</span> Clean around eyes daily Pugs are prone to eye discharge and corneal ulcers.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Keep them in cool, air-conditioned environments.</div>
+              <div class="care-item"><span class="ci">✔</span> Give moderate daily walks 20–30 minutes is enough.</div>
+              <div class="care-item"><span class="ci">✔</span> Monitor weight carefully obesity worsens breathing.</div>
+              <div class="care-item"><span class="ci">✔</span> Use a harness instead of a collar to avoid neck strain.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't exercise in heat or humidity heatstroke risk is high.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't over-treat their short snouts make choking a risk.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't neglect wrinkle cleaning infections are painful.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't use a collar for walks it compresses their already narrow airway.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== BIRDS ===================== -->
+<div id="birds" class="tab-content">
+  <div class="section-title">
+    <h2>🐦 Bird Breeds</h2>
+    <p>Fun facts and proper care for your feathered companions</p>
+  </div>
+  <div class="animals-grid">
+
+    <!-- LOVEBIRDS -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://th-thumbnailer.cdn-si-edu.com/veAF6mWMblimWMXmv7zoytbU3J0=/1280x1280/filters:focal(512x385:513x386)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/2a/95/2a951379-be49-435b-b0a9-eddb9e834884/5210582753_c660d548d8_o.jpg" alt="Lovebirds">
+        <div class="animal-label">
+          <div class="badge">Bird Breed</div>
+          <h3>Lovebirds</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">💕</span>
+            <div class="fact-text"><strong>Truly Devoted Partners</strong>Lovebirds mate for life and spend hours grooming, feeding, and sitting close to each other. If separated from their partner, they can become deeply depressed. Advice: always adopt them in pairs!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🧠</span>
+            <div class="fact-text"><strong>Surprisingly Smart</strong>Despite their tiny size (15–17 cm), lovebirds are highly intelligent. They can recognize their reflection, solve simple puzzles, and even learn to mimic a few words when trained patiently from a young age.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🌈</span>
+            <div class="fact-text"><strong>Nine Colorful Species</strong>There are 9 species of lovebirds, ranging from bright green to vibrant red, yellow, and blue. Most come from Africa. Their vivid colors come from a combination of pigments and feather microstructures that refract light.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🚿</span> Provide a shallow water dish for bathing lovebirds bathe themselves regularly.</div>
+            <div class="grooming-item"><span>💅</span> Trim nails every 4–6 weeks with bird-safe nail clippers or visit a vet/groomer.</div>
+            <div class="grooming-item"><span>✂️</span> Wing clipping is optional — consult your vet; it limits flight but aids taming.</div>
+            <div class="grooming-item"><span>🦜</span> Beak stays naturally trimmed through chewing provide cuttlebone and perches.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Keep them in pairs single lovebirds need intense owner interaction.</div>
+              <div class="care-item"><span class="ci">✔</span> Provide a spacious cage with horizontal bars for climbing.</div>
+              <div class="care-item"><span class="ci">✔</span> Offer fresh fruits, veggies, and seeds daily.</div>
+              <div class="care-item"><span class="ci">✔</span> Let them out for supervised free-flight time daily.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't use non-stick cookware near them Teflon fumes are lethal to birds.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't feed avocado, chocolate, or onion these are toxic.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't place cage in drafty areas or direct harsh sunlight.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't neglect social time lonely lovebirds feather-pluck.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PIGEON -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://a-z-animals.com/media/2021/01/Pigeon-close-up.jpg" alt="Pigeon">
+        <div class="animal-label">
+          <div class="badge">Bird Breed</div>
+          <h3>Pigeon</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">🧭</span>
+            <div class="fact-text"><strong>Living GPS</strong>Pigeons have a magnetic mineral called magnetite in their beaks that acts like a built-in compass. They can navigate home from over 1,800 km away using Earth's magnetic field, air infrasound, and landmarks earning them the title of "homing pigeons."</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🪞</span>
+            <div class="fact-text"><strong>Self-Aware Intelligence</strong>Pigeons are among only a handful of non-human animals that can recognize themselves in a mirror. They can also recognize human faces, count, and understand basic time concepts far more intelligent than most people realize!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🕊️</span>
+            <div class="fact-text"><strong>War Heroes</strong>Pigeons have saved thousands of lives in both World Wars by carrying messages through enemy lines. A pigeon named Cher Ami was awarded the French Croix de Guerre medal for delivering a message despite being severely wounded.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🚿</span> Provide a shallow bath pan 2–3 times a week pigeons love bathing themselves.</div>
+            <div class="grooming-item"><span>💅</span> Trim overgrown nails every 6–8 weeks if kept in captivity.</div>
+            <div class="grooming-item"><span>🪶</span> Check feathers regularly for mites or lice look for excessive preening or feather loss.</div>
+            <div class="grooming-item"><span>👁️</span> Inspect eyes and nostrils weekly for discharge, which may indicate illness.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide grains, seeds, peas, and occasional leafy greens.</div>
+              <div class="care-item"><span class="ci">✔</span> Keep their loft/cage clean — pigeons are susceptible to respiratory infections.</div>
+              <div class="care-item"><span class="ci">✔</span> Give them space to fly flight is essential for their physical health.</div>
+              <div class="care-item"><span class="ci">✔</span> Vaccinate against pigeon paramyxovirus (PMV) annually.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't feed bread, chips, or junk food nutritionally harmful.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't keep them in damp, poorly ventilated spaces respiratory disease risk.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't house aggressive birds together without separation.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't overcrowd their space stress weakens their immune system.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHICKEN -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2011/3/23/0/Original-Anna-Millman_Backyard-Chickens-rhode-island-red-fronk-flowers-helen_s4x3.jpg.rend.hgtvcom.616.462.85.suffix/1400958930406.webp" alt="Chicken">
+        <div class="animal-label">
+          <div class="badge">Bird Breed</div>
+          <h3>Chicken</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">😴</span>
+            <div class="fact-text"><strong>They Dream!</strong>Chickens experience REM (Rapid Eye Movement) sleep the same sleep phase where humans dream. They show sleep cycles similar to mammals, suggesting they may actually experience dreams. They're far more neurologically complex than commonly believed.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">👁️</span>
+            <div class="fact-text"><strong>Tetrachromatic Vision</strong>Chickens can see ultraviolet light that humans cannot. They have 4 types of color receptors (humans have 3), allowing them to see colors and wavelengths invisible to us helping them find food and assess mates.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🐣</span>
+            <div class="fact-text"><strong>Remarkable Mothers</strong>Mother hens begin communicating with their chicks before they even hatch through vibrations and calls through the egg shell! Advice: if raising chicks, playing gentle sounds can help them bond even before hatching.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🛁</span> Provide dust baths chickens naturally clean themselves by rolling in dry dirt/sand to remove parasites.</div>
+            <div class="grooming-item"><span>💅</span> Trim overgrown spurs and nails every few months (especially roosters).</div>
+            <div class="grooming-item"><span>🪶</span> Check for mites and lice monthly inspect under wings and around the vent area.</div>
+            <div class="grooming-item"><span>👁️</span> Inspect comb and wattles for frostbite in cold weather apply petroleum jelly.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide a safe, clean coop with good ventilation and roosting bars.</div>
+              <div class="care-item"><span class="ci">✔</span> Give access to fresh water, layer feed, and kitchen scraps.</div>
+              <div class="care-item"><span class="ci">✔</span> Allow free-range time foraging is natural and enriching.</div>
+              <div class="care-item"><span class="ci">✔</span> Deworm and vaccinate according to your vet's schedule.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't feed raw meat, onions, avocado, or salty foods toxic or harmful.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave the coop damp respiratory and fungal diseases thrive in moisture.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't overcrowd leads to pecking, stress, and disease spread.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't introduce new birds without a 2-week quarantine period first.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ===================== RABBITS ===================== -->
+<div id="rabbits" class="tab-content">
+  <div class="section-title">
+    <h2>🐰 Rabbit Breeds</h2>
+    <p>Fun facts and proper care for your fluffy bunny companions</p>
+  </div>
+  <div class="animals-grid">
+
+    <!-- ANGORA -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://www.zooplus.co.uk/magazine/wp-content/uploads/2022/03/white-angora-rabbit-on-grass.webp" alt="Angora Rabbit">
+        <div class="animal-label">
+          <div class="badge">Rabbit Breed</div>
+          <h3>Angora Rabbit</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">🧶</span>
+            <div class="fact-text"><strong>Living Wool Factory</strong>Angora rabbits produce some of the softest, finest fiber in the world 8 times warmer than sheep's wool! A single rabbit can produce up to 1 kg of luxurious angora wool per year through regular, humane shearing.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🕰️</span>
+            <div class="fact-text"><strong>Ancient Origin</strong>Angora rabbits are believed to have originated in Ankara, Turkey (historically called Angora) around the early 1700s. French royalty including King Louis XVI and Marie Antoinette were reportedly fans of these fluffy companions!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">⚠️</span>
+            <div class="fact-text"><strong>Wool Block Danger</strong>When Angoras groom themselves, they ingest fur that can cause a life-threatening blockage called "wool block." Advice: brush daily, feed high-fiber hay, and never let their coat go uncombed for more than a day.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush DAILY Angora wool mats within 24–48 hours without brushing.</div>
+            <div class="grooming-item"><span>✂️</span> Shear or trim every 60–90 days to prevent matting and wool block.</div>
+            <div class="grooming-item"><span>💅</span> Trim nails every 4–6 weeks to prevent curling and injury.</div>
+            <div class="grooming-item"><span>👁️</span> Check for soiled wool around the rear (wool rot) trim and clean immediately.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Feed unlimited timothy hay essential for gut health and preventing wool block.</div>
+              <div class="care-item"><span class="ci">✔</span> House in a cool area  their thick coat makes them heat-sensitive.</div>
+              <div class="care-item"><span class="ci">✔</span> Handle gently and regularly to build trust from a young age.</div>
+              <div class="care-item"><span class="ci">✔</span> Provide a safe exercise area for daily movement.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't skip daily brushing ever. Mats become painful quickly.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't bathe them wet fur takes hours to dry and causes hypothermia.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't feed too many pellets or treats obesity risk.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't house outdoors unprotected predators and heat are dangerous.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NETHERLAND DWARF -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://pet-health-content-media.chewy.com/wp-content/uploads/2025/08/22064142/netherland-dwarf-.jpg" alt="Netherland Dwarf Rabbit">
+        <div class="animal-label">
+          <div class="badge">Rabbit Breed</div>
+          <h3>Netherland Dwarf</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">🔬</span>
+            <div class="fact-text"><strong>Tiniest Domestic Rabbit</strong>Netherland Dwarfs weigh only 0.9–1.1 kg making them one of the world's smallest rabbit breeds! Their compact body, round head, and tiny erect ears give them a permanently "baby" appearance that never quite disappears with age.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">🎨</span>
+            <div class="fact-text"><strong>Over 30 Color Varieties</strong>Netherland Dwarfs come in an extraordinary range of colors and patterns — from pure white to tortoiseshell, blue, chocolate, chinchilla, and harlequin. There are over 30 recognized color varieties in show standards worldwide!</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">💪</span>
+            <div class="fact-text"><strong>Surprisingly Feisty</strong>Despite their tiny size, Netherland Dwarfs have a bold, assertive personality. They can be nippy when stressed. Advice: socialize them from an early age with calm, gentle handling patience transforms them into wonderfully affectionate companions.</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush 1–2 times a week; daily during molting season (every 3 months).</div>
+            <div class="grooming-item"><span>💅</span> Trim nails every 4–6 weeks  small nails can curl and pierce the paw pad.</div>
+            <div class="grooming-item"><span>👂</span> Check ears monthly for wax or mites clean gently with a damp cotton ball.</div>
+            <div class="grooming-item"><span>🦷</span> Monitor teeth Netherland Dwarfs are prone to dental malocclusion (misaligned teeth).</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide a spacious cage at least 4x their body length per side.</div>
+              <div class="care-item"><span class="ci">✔</span> Feed 80% hay, plus fresh leafy greens and a small amount of pellets.</div>
+              <div class="care-item"><span class="ci">✔</span> Give daily out-of-cage exercise time in a bunny-proofed area.</div>
+              <div class="care-item"><span class="ci">✔</span> Handle gently from a young age to build trust.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't pick them up by the ears or scruff injures their spine.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't feed sugary fruits frequently digestive upset risk.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't house on wire flooring injures small, delicate feet.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't expose to sudden loud noises they're prone to stress-induced heart attacks.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- POLISH RABBIT -->
+    <div class="animal-card">
+      <div class="animal-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Oryctolagus_cuniculus_Rcdo.jpg" alt="Polish Rabbit">
+        <div class="animal-label">
+          <div class="badge">Rabbit Breed</div>
+          <h3>Polish Rabbit</h3>
+        </div>
+      </div>
+      <div class="animal-body">
+        <div class="fun-facts">
+          <div class="section-label">✨ Fun Facts & Advice</div>
+          <div class="fact-item">
+            <span class="fact-icon">🌍</span>
+            <div class="fact-text"><strong>Not Actually Polish!</strong>Despite the name, the Polish Rabbit is believed to have originated in England, not Poland. The name may refer to their "polished" shiny coat or was possibly a marketing term used in 19th-century Britain to describe these sleek, compact rabbits.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">⚡</span>
+            <div class="fact-text"><strong>Energetic and Playful</strong>Polish Rabbits are lively, curious, and love to explore. They bond deeply with their owners and can be trained to use a litter box, come when called, and even perform simple tricks making them one of the most interactive rabbit breeds.</div>
+          </div>
+          <div class="fact-item">
+            <span class="fact-icon">👀</span>
+            <div class="fact-text"><strong>Ruby-Eyed White (REW)</strong>Polish Rabbits often come in a striking "Ruby-Eyed White" variety their eyes appear pink or red because they have no pigment in their irises, and you're actually seeing the blood vessels reflected through. Fascinating and completely harmless!</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="care-section">
+          <div class="section-label">🛁 Grooming</div>
+          <div class="grooming-box">
+            <div class="list-title">✂️ Grooming Routine</div>
+            <div class="grooming-item"><span>🪮</span> Brush weekly; increase to daily during seasonal molts to prevent ingestion of loose fur.</div>
+            <div class="grooming-item"><span>💅</span> Clip nails every 4–6 weeks check for overgrowth and cracking.</div>
+            <div class="grooming-item"><span>👁️</span> Wipe eyes gently with damp cloth if you notice discharge — especially for REW variety.</div>
+            <div class="grooming-item"><span>🦷</span> Check teeth monthly for overgrowth provide wooden chew toys to keep them trimmed naturally.</div>
+          </div>
+          <div class="care-cols">
+            <div class="do-list">
+              <div class="list-title">✅ Do's</div>
+              <div class="care-item"><span class="ci">✔</span> Provide enrichment toys Polish Rabbits need mental stimulation.</div>
+              <div class="care-item"><span class="ci">✔</span> Feed high-quality timothy hay as the diet foundation.</div>
+              <div class="care-item"><span class="ci">✔</span> Give daily supervised playtime outside their enclosure.</div>
+              <div class="care-item"><span class="ci">✔</span> Keep indoors their small size makes them vulnerable to predators.</div>
+            </div>
+            <div class="dont-list">
+              <div class="list-title">❌ Don'ts</div>
+              <div class="care-item"><span class="ci">✖</span> Don't feed iceberg lettuce it causes digestive upset and diarrhea.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't leave chewable electrical cords accessible a serious hazard.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't let children handle them unsupervised a startled rabbit kicks hard and can injure its own spine.</div>
+              <div class="care-item"><span class="ci">✖</span> Don't skip annual vet checks rabbits hide illness until it's severe.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <h2>🐾 PetHaven</h2>
+  <p>Caring for your pets with love and passion.</p>
+  <p>© 2026 PetHaven. All Rights Reserved.</p>
+</footer>
+
+<script>
+  function switchTab(tabId, btn) {
+    document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    btn.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

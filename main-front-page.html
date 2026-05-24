@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PetHaven Pet Care Website</title>
+  <link rel="stylesheet" href="front-page-style.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="sign-up.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      🐾 <span>PetHaven</span>
+    </div>
+
+    <nav>
+
+    </nav>
+
+    <button class="call-btn" id="SignUp">
+      SIGN UP
+    </button>
+
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="pethaven">
+        WELCOME TO PETHAVEN!
+      </span>
+
+      <h1>
+        Pawsitive Love <br>
+        in every Paw-fect Care
+      </h1>
+
+      <button class="hero-btn" id="LearnButton">
+        🐾 Learn More
+      </button>
+      <button class="hero-btn-secondary" id="AboutButton">
+        About Us
+      </button>
+    </div>
+
+    <!-- Floating Icons -->
+    <div class="floating bone">🦴</div>
+    <div class="floating paw">🐾</div>
+    <div class="floating ball">⚪</div>
+  </section>
+
+  <!-- Floating Pages Smthing -->
+  <section class="floating-pages">
+    <div class="float-card">
+      <div class="icon">🐶</div>
+      <h3>Fun Facts & Advices</h3>
+      <p>
+        Furry friends by your side, joy in every stride!
+      </p>
+    </div>
+
+    <div class="float-card">
+      <div class="icon"> 💕 </div>
+      <h3>Step By Step Pet Care</h3>
+      <p>
+        Where every paw matters, and love for paws will fur-ever lasts.
+      </p>
+
+    </div>
+    <div class="float-card">
+      <div class="icon">🩺 </div>
+      <h3>Near Veterinarian Clinics</h3>
+      <p>
+        Your pet's health, our priority - veterinarian clinics near you!
+      </p>
+    </div>
+  </section>
+
+  <!-- About PetHaven -->
+  <section class="about">
+    <div class="about-image">
+      <div class="circle one"></div>
+      <div class="circle two"></div>
+      <img src="https://i.pinimg.com/originals/9c/67/38/9c6738bf74f94adf5ed0f9e4170cbf2d.jpg" alt="Dog">
+      <div class="floating crown">👑</div>
+    </div>
+
+    <div class="about-text">
+      <span class="tag">ABOUT PETHAVEN</span>
+      <h2>
+        Your pet's happiness <br>
+        is our priority!
+      </h2>
+      <p>
+        Give your pet companion the best life! From nutrition tips to grooming hacks, we've got the guidance on keeping your pets happy and healthy.
+      </p>
+    </div>
+  </section>
+
+  <!-- PetHaven Offers -->
+  <section class="offer">
+    <h2>What We Can Offer</h2>
+    <p>
+      We offer loving care, expert tips & advices, and giving you the nearest veterinarian clinics - all for your pet companion's safety and happiness!
+    </p>
+    <div class="offer-cards">
+      <div class="offer-card">
+        <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1000&auto=format&fit=crop" alt="Tips and Advice">
+
+        <div class="offer-content">
+          <h3>Loving Tips and Advices</h3>
+        </div>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?q=80&w=1000&auto=format&fit=crop" alt="Vet Care">
+
+        <div class="offer-content">
+          <h3>Near Veterinarian Care</h3>
+        </div>
+      </div>
+
+      <div class="offer-card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.7-K8oZSBruAj59UzmD_bsQHaEo?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Pet Care">
+
+        <div class="offer-content">
+          <h3>Pet Care Procedures</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h2>🐾 PetHaven</h2>
+    <p>
+      Caring for your pets with love and passion. 
+    </p>
+    <p>
+      © 2026 PetHaven. All Rights Reserved.
+    </p>
+  </footer>
+</body>
+</html>
+
+
+<script>
+    document.getElementById("LearnButton").addEventListener("click",function () {
+        window.location.href = "SignUp.html";  });
+</script>
+<script>
+    document.getElementById("AboutButton").addEventListener("click",function () {
+        window.location.href = "about-page.html";  });
+</script>
